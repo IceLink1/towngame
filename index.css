@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background: #48c1df;
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.island {
+  width: 80%;
+  height: 80%;
+  background: #69de3b;
+  border-radius: 130px;
+  border-top-left-radius: 180px;
+  border-left: 40px solid yellow;
+  padding: 20px;
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.zav,.zav2,.zav3,
+.zav1,.zav1 img ,.zav2 img, .zav3 img  {
+  height: 100px;
+  width: 150px;
+}
+.zav6{
+  height: 50px;
+  width: 50px;
+}
+.zav2,.zav3{
+  background: #df7b0f99;
+  border-radius: 20px;
+}
+.tepa{
+  animation: myanima 3s infinite;
+}
+@keyframes myanima{
+  0%{
+    transform: translate(0);
+  }
+  10%{
+    transform: translateY(0px);
+  }
+  15%{
+    transform: translateY(-20px);
+  }
+  20%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(-20px);
+  }
+  30%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(0px);
+
+  }
+}
+.nav{
+  width: 100%;
+  height: 50px;
+  background: #5b5b5b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.buy,.buyTwo ,.buyInp{
+  display: none;
+  position: absolute;
+  width: 70%;
+  height: 300px;
+  z-index: 2;
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.buy1,.buy1Two {
+  width: 100%;
+  height: 10%;
+}
+.buy2,.buy2Two{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy2 div,.buy2Two div {
+  text-align: center;
+}
+.buy3,.buy3Two{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1,.btn1Two{
+  width: 100px ;
+  height: 30px ;
+  border: none;
+  border-radius: 5px;
+  background: #53dc3e;
+}
+.img1{
+  width: 150px;
+}

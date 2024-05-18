@@ -45,6 +45,10 @@ Btn.addEventListener('click',()=>{
         localStorage.setItem("cash", c)
         CashInHTML()
     }
+    if (devInp.value == "P") {
+        localStorage.setItem("uy", "p")
+        localStorage.setItem("bank", "p")
+    }
 })
 
 
